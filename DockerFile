@@ -1,0 +1,10 @@
+FROM python:3.9-buster
+RUN pip install --no-cache-dir jsonlib-python3 torch Flask numpy 
+
+#copy  files to work directory
+COPY / /app
+
+#delete docker-file from directory
+RUN  rm /app/Dockerfile
+
+ENTRYPOINT ["python","/app/main.py"]
