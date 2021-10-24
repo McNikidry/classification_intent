@@ -1,1 +1,9 @@
-# classification_intent
+# Classification intents
+
+Приложение, реализует классификацию интентов с помощью модели, обученных на этих [данных]. 
+Для классификации использовалисл классический BERT, простые сети со сверточными слоями. 
+
+
+
+
+   [данных]: <https://github.com/PolyAI-LDN/task-specific-datasets>
